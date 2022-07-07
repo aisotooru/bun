@@ -34,9 +34,9 @@ _bun() {
                 '1: :->cmd1' \
                 '*: :->package' \
                 '--version[Show version and exit]' \
-                '-V[Show version and exit]' \
-                '--cwd[Change directory]:cwd' \
-                '--help[Show command help]' \
+                '-V[Show Version and Exit]' \
+                '--cwd[Change Directory]:cwd' \
+                '--help[Show Command help]' \
                 '-h[Show command help]' \
                 '--registry[Change default registry (default: \$BUN_CONFIG_REGISTRY || \$npm_config_registry)]:registry' \
                 '--token[Authentication token used for npm registry requests (default: \$npm_config_token)]:token' \
